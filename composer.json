@@ -1,0 +1,33 @@
+{
+    "name": "whiteplanes/whiteplanes",
+    "type": "library",
+    "description": "Whitespace interpreter written in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Takuya Katsurada",
+            "email": "mail@nutcrack.io"
+        }
+    ],
+    "require": {
+        "php": ">= 5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd":"*",
+        "sebastian/phpcpd": "*",
+        "phploc/phploc": "*",
+        "satooshi/php-coveralls": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whiteplanes\\": "lib"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Whiteplanes\\Test\\": "test/src"
+        }
+    }
+}

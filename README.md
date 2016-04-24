@@ -1,6 +1,9 @@
 # Whiteplanes
 [![Build Status](https://travis-ci.org/whiteplanes/whiteplanes.php.svg?branch=master)](https://travis-ci.org/whiteplanes/whiteplanes.php)
 [![Coverage Status](https://coveralls.io/repos/github/whiteplanes/whiteplanes.php/badge.svg?branch=master)](https://coveralls.io/github/whiteplanes/whiteplanes.php/?branch=master)
+[![Dependency Status](https://gemnasium.com/badges/github.com/whiteplanes/whiteplanes.php.svg)](https://gemnasium.com/github.com/whiteplanes/whiteplanes.php)
+[![Code Climate](https://codeclimate.com/github/whiteplanes/whiteplanes.php/badges/gpa.svg)](https://codeclimate.com/github/whiteplanes/whiteplanes.php)
+[![HHVM](https://img.shields.io/hhvm/whiteplanes/whiteplanes.svg)](http://hhvm.h4cc.de/package/whiteplanes/whiteplanes)
 
 Whiteplane is a whitespace interpreter writen in PHP
 
@@ -43,6 +46,19 @@ The programmer is free to push arbitrary-width integers onto the stack (currentl
 |[tab][newline]|[space][tab]||OUTPUT ( number )|
 |[tab][newline]|[tab][space]||INPUT ( character )|
 |[tab][newline]|[tab][tab]||INPUT ( number )|
+
+## Installation
+[![Latest Stable Version](http://img.shields.io/packagist/v/whiteplanes/whiteplanes.svg?style=flat)](https://packagist.org/packages/whiteplanes/whiteplanes)
+
+Whiteplanes requires that you are running PHP 5.5 or later.   
+This is PSR-4 compliant and can be installed using Composer.   
+Add whiteplanes/whiteplanes to your composer.json
+
+``` json
+"require": {
+  "whiteplanes/whiteplanes": "*"
+}
+```
 
 ## License
 

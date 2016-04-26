@@ -12,9 +12,9 @@ namespace Whiteplanes\Test;
 use Whiteplanes\Whiteplanes;
 
 /**
- * The Whiteplanes testcase
+ * The Execute testcase
  */
-class WhiteplanesTest extends \PHPUnit_Framework_TestCase
+class ExecuteTest extends \PHPUnit_Framework_TestCase
 {
     /**
      *  @var object $context

@@ -122,6 +122,7 @@ class Command extends \stdClass
                 return new Command($name, $parameter);
             }
         }
+        throw new \InvalidArgumentException("Invalid command");
     }
 
     /**
@@ -397,7 +398,7 @@ class Command extends \stdClass
     private static function getCommandParameter($source)
     {
         $parameter = "";
-        foreach (\str_split($source) as $index => $character) {
+        foreach (\str_split($source) as $character) {
             $ascii = ord($character);
             if ($ascii === Command::TOKEN_SPACE) {
                 $parameter .= "0";

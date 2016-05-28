@@ -1,4 +1,4 @@
-# Whiteplanes
+# Whiteplanes.php
 [![Build Status](https://travis-ci.org/whiteplanes/whiteplanes.php.svg?branch=master)](https://travis-ci.org/whiteplanes/whiteplanes.php)
 [![Coverage Status](https://coveralls.io/repos/github/whiteplanes/whiteplanes.php/badge.svg?branch=master)](https://coveralls.io/github/whiteplanes/whiteplanes.php/?branch=master)
 [![Dependency Status](https://gemnasium.com/badges/github.com/whiteplanes/whiteplanes.php.svg)](https://gemnasium.com/github.com/whiteplanes/whiteplanes.php)
